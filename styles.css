@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./img/gymbg.jpg);
+    font-family: 'Baloo 2', sans-serif;
+    background-position-y: 15%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.left{
+    /* border: 2px solid red; */
+    background: #000000c3;
+    display: inline-block;
+    position: absolute;
+    left: 3%;
+    top: 10px;
+    padding-top: 2.5px;
+    text-align: center;
+    cursor: default;
+    line-height: 100%;
+}
+.left img{
+    width: 100px;
+    filter: invert(100%);
+    /* margin: 5px 5px 0px 5px; */
+}
+.mid{
+    /* border: 2px solid rgb(0, 255, 26); */
+    background: #0000009f;
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+}
+.right{
+    /* border: 2px solid rgb(0, 195, 255); */
+    display: inline-block;
+    position: absolute;
+    right: 1%;
+    top: 10px;
+}
+.navbar{
+    padding: 0px;
+    /* margin: 0px; */
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    font-size: larger;
+    padding-inline: 2%;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: rgb(135, 135, 135);
+    text-decoration: underline;
+}
+.btn{
+    margin-inline: 2px;
+    background: #000;
+    color: white;
+    border: 2px solid rgb(162, 162, 162);
+    border-radius: 7.5px;
+    cursor:pointer;
+    font-family: 'Baloo 2', sans-serif;
+}
+.btn:hover{
+    background: rgb(77, 77, 77);
+}
+.container{
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    /* line-height: 0%; */
+    margin: 5%;
+    padding: 0% 10% 2.5% 7.5%;
+    width: 60%;
+}
+.form-group input{
+    font-family: 'Baloo 2', sans-serif;
+    font-size: large;
+    text-align: center;
+    line-height: 0px;
+    display: block;
+    width: 75%;
+    border: 2px solid rgb(129, 60, 0);
+    border-radius: 5px;
+    padding: 5px 0px 2.5px 0px;
+    margin: 7.5px auto; 
+}
+.container h1{
+    background: #00000057;
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 50%;
+    margin-inline:auto;
+    margin-top: 25px;
+    font-size: medium;
+}
